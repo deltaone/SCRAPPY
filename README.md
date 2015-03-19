@@ -4,9 +4,11 @@ Command line regex scraper engine based on CS-Script and NVelocity (designed for
 # Features:
   * Create RSS feed / TABLE view from any website
   * Transform website to custom design through templates
-  * Easily extend scrap functionlity through adding custom functions
   * Cachable precompiled processor for each bookmark
-  
+  * Easily extend scrap functionlity through adding custom functions
+  * Full featured C# scripts in scraper routines (http://www.csscript.net)
+  * Rich template syntax (http://www.castleproject.org)
+
 # How to use:
   1. Create folder 'scrappy' in root of WebSite-Watcher
   2. Copy content of 'bin' folder into newly created 'scrappy'
