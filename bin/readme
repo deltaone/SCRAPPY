@@ -1,5 +1,5 @@
 To debug set root/scrappy.cfg - section [main] variable debug=1
-	after thet look into root/debug folder
+	after that look into root/debug folder
 	to debug subprograms use - Debug.Assert(false, "Debug point!");	
 
 Subprogram parameters
