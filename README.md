@@ -5,6 +5,7 @@ Command line regex scraper engine based on CS-Script and NVelocity (designed for
   * Create RSS feed / TABLE view from any website
   * Transform website to custom design through templates
   * Easily extend scrap functionlity through adding custom functions
+  * Cachable precompiled processor for each bookmark
   
 # How to use:
   1. Create folder 'scrappy' in root of WebSite-Watcher
