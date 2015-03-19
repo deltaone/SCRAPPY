@@ -1,0 +1,979 @@
+[HEADER BEGIN]
+http://www.spacegamejunkie.com/
+[HEADER END]
+<!DOCTYPE html> 
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.spacegamejunkie.com/xmlrpc.php">
+	
+	<title>Computer Space Game Videos, News &amp; Reviews | Space Game Junkie</title>
+
+	<style type="text/css">
+		#fancybox-close{right:-15px;top:-15px}
+		div#fancybox-content{border-color:#FFFFFF}
+		div#fancybox-title{background-color:#FFFFFF}
+		div#fancybox-outer{background-color:#FFFFFF}
+		div#fancybox-title-inside{color:#333333}
+	</style>
+
+	<link rel="stylesheet" href="http://www.spacegamejunkie.com/wp-content/plugins/organize-series/orgSeries.css" type="text/css" media="screen" />
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<link rel="canonical" href="http://www.spacegamejunkie.com/" />
+	<meta name="description" content="Space Game Junkie covers all computer space games, past and present, including reviews, interviews, news and more." />
+	<meta property="og:type" content="blog" />
+	<meta property="og:title" content="Space Game Junkie" />
+	<meta property="og:description" content="Playing Through Space Gaming's Past, Present and Future" />
+	<meta property="og:url" content="http://www.spacegamejunkie.com/" />
+	<meta property="og:site_name" content="Space Game Junkie" />
+	<meta name="twitter:card" content="summary" />
+<!-- /SEO Ultimate -->
+
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel="alternate" type="application/rss+xml" title="Space Game Junkie » Feed" href="http://www.spacegamejunkie.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Space Game Junkie » Comments Feed" href="http://www.spacegamejunkie.com/comments/feed/" />
+<link href="//fonts.googleapis.com/css?family=Ubuntu:400,400italic,300italic,300,700&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link rel='stylesheet' id='mediaelement-css'  href='http://www.spacegamejunkie.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.15.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.spacegamejunkie.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twiget-widget-css-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/twiget/css/twiget.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='social-widget-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/social_widget.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twitch_status-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/twitch-status/css/twitch-status.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-channel-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/youtube-channel/assets/css/youtube-channel.min.css?ver=2.4.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-au-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/youtube-channel/assets/lib/magnific-popup/magnific-popup.min.css?ver=2.4.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='http://www.spacegamejunkie.com/wp-content/themes/hueman/style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.spacegamejunkie.com/wp-content/themes/hueman-child/style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://www.spacegamejunkie.com/wp-content/themes/hueman/responsive.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.spacegamejunkie.com/wp-content/themes/hueman/fonts/font-awesome.min.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-social-icons-font-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/simple-social-icons/css/style.css?ver=1.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jq_ui_css-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/css/jquery-ui-1.8.16.custom.css?ver=1.8.16' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-css'  href='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/css/custom.css?ver=1.0.4' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.3.2 - Universal enabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-100316-6', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/powerpress/player.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script><script>jQueryWP = jQuery;</script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TwigetArgs = {"via":"via twigetTweetClient","LessThanMin":"less than a minute ago","AboutAMin":"about a minute ago","MinutesAgo":"twigetRelTime minutes ago","AnHourAgo":"about an hour ago","HoursAgo":"about twigetRelTime hours ago","OneDayAgo":"1 day ago","DaysAgo":"twigetRelTime days ago","isSSL":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/twiget/js/twiget.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/fancybox-for-wordpress/js/jquery.mousewheel.3.0.4.pack.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/themes/hueman/js/jquery.flexslider.min.js?ver=4.1.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.spacegamejunkie.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.spacegamejunkie.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.1" />
+<link rel='shortlink' href='http://wp.me/1LJhy' />
+<script type="text/javascript" src="http://www.spacegamejunkie.com/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://www.spacegamejunkie.com/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+
+<!-- Fancybox for WordPress -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+	var arr = jQuery("a.fancybox");
+	jQuery.each(arr, function() {
+		var title = jQuery(this).children("img").attr("title");
+		jQuery(this).attr('title',title);
+	})
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+var posts = jQuery(".post");
+
+posts.each(function() {
+	jQuery(this).find(thumbnails).addClass("fancybox").attr("rel","fancybox"+posts.index(this)).getTitle()
+});
+jQuery("a.fancybox").fancybox({
+	'cyclic': true,
+	'autoScale': true,
+	'padding': 10,
+	'opacity': true,
+	'speedIn': 500,
+	'speedOut': 500,
+	'changeSpeed': 300,
+	'overlayShow': true,
+	'overlayOpacity': "0.3",
+	'overlayColor': "#666666",
+	'titleShow': true,
+	'titlePosition': 'inside',
+	'enableEscapeButton': true,
+	'showCloseButton': true,
+	'showNavArrows': true,
+	'hideOnOverlayClick': true,
+	'hideOnContentClick': false,
+	'width': 560,
+	'height': 340,
+	'transitionIn': "fade",
+	'transitionOut': "fade",
+	'centerOnScroll': true
+});
+
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+	<link rel="Shortcut Icon" type="image/x-icon" href="" />
+	<link rel="apple-touch-icon" type="image/png" href="http://www.spacegamejunkie.com/SGJ-LOGO-FAVICON.png" />
+	<script type="text/javascript"><!--
+function powerpress_pinw(pinw){window.open('http://www.spacegamejunkie.com/?powerpress_pinw='+pinw, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+powerpress_url = 'http://www.spacegamejunkie.com/wp-content/plugins/powerpress/';
+//-->
+</script>
+<link rel="alternate" type="application/rss+xml" title="Default Podcast Feed" href="http://www.spacegamejunkie.com/feed/podcast/" />
+<link rel='stylesheet' href='http://www.spacegamejunkie.com/wp-content/plugins/secure-html5-video-player/video-js/video-js.css' type='text/css' />
+<link rel='stylesheet' href='http://www.spacegamejunkie.com/wp-content/plugins/secure-html5-video-player/video-js/skins/tube.css' type='text/css' />
+<script src='http://www.spacegamejunkie.com/wp-content/plugins/secure-html5-video-player/video-js/video.js' type='text/javascript' ></script>
+<script type='text/javascript' > VideoJS.setupAllWhenReady(); </script>
+		<script type="text/javascript">
+			var twitchStatus = {"ajaxurl":"http:\/\/www.spacegamejunkie.com\/wp-admin\/admin-ajax.php","channel":"SpaceGameJunkie","selectors":[""],"buttonHTML":{"online":"LIVE!","offline":"offline"}}		</script>
+    <link rel="stylesheet" href="http://www.spacegamejunkie.com/wp-content/plugins/twitch-status/font/fontello/css/fontello.css">
+    <link rel="stylesheet" href="http://www.spacegamejunkie.com/wp-content/plugins/twitch-status/font/fontello/css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="http://www.spacegamejunkie.com/wp-content/plugins/twitch-status/font/fontello/css/fontello-ie7.css"><![endif]-->
+	
+<link rel='dns-prefetch' href='//jetpack.wordpress.com'>
+<link rel='dns-prefetch' href='//s0.wp.com'>
+<link rel='dns-prefetch' href='//s1.wp.com'>
+<link rel='dns-prefetch' href='//s2.wp.com'>
+<link rel='dns-prefetch' href='//public-api.wordpress.com'>
+<link rel='dns-prefetch' href='//0.gravatar.com'>
+<link rel='dns-prefetch' href='//1.gravatar.com'>
+<link rel='dns-prefetch' href='//2.gravatar.com'>
+<link rel='dns-prefetch' href='//i0.wp.com'>
+<link rel='dns-prefetch' href='//i1.wp.com'>
+<link rel='dns-prefetch' href='//i2.wp.com'>
+<!--[if lt IE 9]>
+<script src="http://www.spacegamejunkie.com/wp-content/themes/hueman/js/ie/html5.js"></script>
+<script src="http://www.spacegamejunkie.com/wp-content/themes/hueman/js/ie/selectivizr.js"></script>
+<![endif]-->
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" media="screen"> .simple-social-icons ul li a, .simple-social-icons ul li a:hover { background-color: #999999 !important; border-radius: 3px; color: #ffffff !important; border: 0px #ffffff solid !important; font-size: 18px; padding: 9px; }  .simple-social-icons ul li a:hover { background-color: #666666 !important; border-color: #ffffff !important; color: #ffffff !important; }</style><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><style type="text/css">
+/* Dynamic CSS: For no styles in head, copy and put the css below in your custom.css or child theme's style.css, disable dynamic styles */
+body { font-family: "Ubuntu", Arial, sans-serif; }
+.boxed #wrapper, .container-inner { max-width: 1600px; }
+body { background: #bfbfbf url(http://www.spacegamejunkie.com/wp-content/uploads/2014/12/Screenshot_0105.jpg) fixed center center no-repeat; }
+</style>
+</head>
+
+<body class="home blog col-3cm boxed topbar-enabled chrome">
+
+<div id="wrapper">
+
+	<header id="header">
+	
+					<nav class="nav-container group" id="nav-topbar">
+				<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+				<div class="nav-text"><!-- put your mobile menu text here --></div>
+				<div class="nav-wrap container"><ul id="menu-navigation" class="nav container-inner group"><li id="menu-item-10202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10202"><a href="http://www.spacegamejunkie.com/about/">About</a></li>
+<li id="menu-item-10201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10201"><a href="http://www.spacegamejunkie.com/contact/">Contact</a></li>
+<li id="menu-item-10198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10198"><a href="http://www.spacegamejunkie.com/donate/">Donate</a></li>
+<li id="menu-item-179831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179831"><a href="http://www.spacegamejunkie.com/reddit-news-feed-3/">News &#038; Reddit Feed</a></li>
+<li id="menu-item-11337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11337"><a href="http://www.spacegamejunkie.com/calendar/">Calendar</a></li>
+<li id="menu-item-10746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10746"><a href="http://spacegamejunkie.com/wiki/index.php?title=Main_Page">Wiki</a></li>
+<li id="menu-item-10199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10199"><a href="http://www.spacegamejunkie.com/forums/index.php">Forums</a></li>
+</ul></div>
+				
+				<div class="container">
+					<div class="container-inner">		
+						<div class="toggle-search"><i class="fa fa-search"></i></div>
+						<div class="search-expand">
+							<div class="search-expand-inner">
+								<form method="get" class="searchform themeform" action="http://www.spacegamejunkie.com/">
+	<div>
+		<input type="text" class="search" name="s" onblur="if(this.value=='')this.value='To search type and hit enter';" onfocus="if(this.value=='To search type and hit enter')this.value='';" value="To search type and hit enter" />
+	</div>
+</form>							</div>
+						</div>
+					</div><!--/.container-inner-->
+				</div><!--/.container-->
+				
+			</nav><!--/#nav-topbar-->
+				
+		<div class="container group">
+			<div class="container-inner">
+				
+								<div class="group pad">
+					<h1 class="site-title"><a href="http://www.spacegamejunkie.com/" rel="home">Space Game Junkie</a></h1>
+					<p class="site-description">Playing Through Space Gaming's Past, Present and Future</p>									</div>
+												
+									<nav class="nav-container group" id="nav-header">
+						<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+						<div class="nav-text"><!-- put your mobile menu text here --></div>
+						<div class="nav-wrap container"><ul id="menu-categories" class="nav container-inner group"><li id="menu-item-10203" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10203"><a href="http://www.spacegamejunkie.com/category/news/">News</a></li>
+<li id="menu-item-10210" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10210"><a href="http://www.spacegamejunkie.com/category/previews/">Previews</a></li>
+<li id="menu-item-10206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10206"><a href="http://www.spacegamejunkie.com/category/reviews/">Reviews</a></li>
+<li id="menu-item-10207" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10207"><a href="http://www.spacegamejunkie.com/category/interviews/">Interviews</a></li>
+<li id="menu-item-10208" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10208"><a href="http://www.spacegamejunkie.com/category/podcasts/">Podcasts</a></li>
+<li id="menu-item-10209" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10209"><a href="http://www.spacegamejunkie.com/category/oped/">Op-Ed</a></li>
+<li id="menu-item-12081" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12081"><a href="http://www.spacegamejunkie.com/category/guides/">Guides</a></li>
+<li id="menu-item-10244" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10244"><a href="http://www.spacegamejunkie.com/category/videos/">Videos</a></li>
+<li id="menu-item-179967" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-179967"><a href="http://www.spacegamejunkie.com/category/featured/">Featured</a></li>
+<li id="menu-item-10205" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10205"><a href="http://www.spacegamejunkie.com/category/miscellaneous/">Miscellaneous</a></li>
+<li id="menu-item-10204" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10204"><a href="http://www.spacegamejunkie.com/category/deals/">Deals</a></li>
+</ul></div>
+					</nav><!--/#nav-header-->
+								
+			</div><!--/.container-inner-->
+		</div><!--/.container-->
+		
+	</header><!--/#header-->
+	
+	<div class="container" id="page">
+		<div class="container-inner">			
+			<div class="main">
+				<div class="main-inner group">
+<section class="content">
+
+	<div class="page-title pad group">
+
+			<h2>Space Game Junkie</h2>
+
+	
+</div><!--/.page-title-->	
+	<div class="pad group">
+		
+		
+	
+	<script type="text/javascript">
+		// Check if first slider image is loaded, and load flexslider on document ready
+		jQuery(document).ready(function(){
+		 var firstImage = jQuery('#flexslider-featured').find('img').filter(':first'),
+			checkforloaded = setInterval(function() {
+				var image = firstImage.get(0);
+				if (image.complete || image.readyState == 'complete' || image.readyState == 4) {
+					clearInterval(checkforloaded);
+					
+					jQuery('#flexslider-featured').flexslider({
+						animation: "slide",
+						useCSS: false, // Fix iPad flickering issue
+						slideshow: false,
+						directionNav: true,
+						controlNav: true,
+						pauseOnHover: true,
+						slideshowSpeed: 7000,
+						animationSpeed: 400,
+						smoothHeight: true,
+						touch: false
+					});
+					
+				}
+			}, 20);
+		});
+	</script>
+		
+	<div class="featured flexslider" id="flexslider-featured">
+		<ul class="slides">				
+						<li>	
+				<article id="post-180254" class="post-180254 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-previews category-videos tag-rebel-galaxy group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/previews/rebel-galaxy-preview-part-2-sailing-swimmingly/" title="Rebel Galaxy Preview Part 2 – Sailing Along Swimmingly">
+									<img src="http://i2.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Rebel-Galaxy.jpg?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="Boom Chakalaka!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/previews/rebel-galaxy-preview-part-2-sailing-swimmingly/#comments"><span><i class="fa fa-comments-o"></i>0</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/previews/" rel="category tag">Previews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">18 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/previews/rebel-galaxy-preview-part-2-sailing-swimmingly/" rel="bookmark" title="Rebel Galaxy Preview Part 2 – Sailing Along Swimmingly">Rebel Galaxy Preview Part 2 – Sailing Along Swimmingly</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>I’ve been getting asked about Rebel Galaxy more and more these days. While I did a preview (which is only on YouTube for some silly reason) a while back, and we had the developers...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						<li>	
+				<article id="post-180244" class="post-180244 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-reviews category-videos tag-sid-meiers-starships group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/reviews/sid-meiers-starships-galaxy-full-meh/" title="Sid Meiers Starships Review – A Galaxy Full of “Meh…”">
+									<img src="http://i0.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Sid-Meiers-Starships.jpg?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="Look at All The Damage!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/reviews/sid-meiers-starships-galaxy-full-meh/#comments"><span><i class="fa fa-comments-o"></i>8</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/reviews/" rel="category tag">Reviews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">17 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/reviews/sid-meiers-starships-galaxy-full-meh/" rel="bookmark" title="Sid Meiers Starships Review – A Galaxy Full of “Meh…”">Sid Meiers Starships Review – A Galaxy Full of “Meh…”</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>I didn’t play a ton of Sid Meier’s Starships to fully grok just how dull and middling it is, but then again, I didn’t really have to. This PC port of a mobile game...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						<li>	
+				<article id="post-180237" class="post-180237 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-reviews category-videos tag-elite-dangerous tag-x-rebirth group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/reviews/rebirth-review-marked-improvement-ways/" title="X Rebirth Review – A Marked Improvement, Still Needs a Ways to Go">
+									<img src="http://i1.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/X-Rebirth.jpg?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="Die Scum!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/reviews/rebirth-review-marked-improvement-ways/#comments"><span><i class="fa fa-comments-o"></i>2</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/reviews/" rel="category tag">Reviews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">16 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/reviews/rebirth-review-marked-improvement-ways/" rel="bookmark" title="X Rebirth Review – A Marked Improvement, Still Needs a Ways to Go">X Rebirth Review – A Marked Improvement, Still Needs a Ways to Go</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>As a massive new patch adds new ships, missions and comes with a permanent price cut as well, I decided to revisit X Rebirth and see if it’s now worth your time, especially now that...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						<li>	
+				<article id="post-180228" class="post-180228 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-podcasts category-videos tag-star-wars-tie-fighter group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/featured/sgj-podcast-98-tie-fighter-game-game/" title="SGJ Podcast #98 – TIE Fighter – The Best Game, or THE BEST GAME?">
+									<img src="http://i2.wp.com/www.spacegamejunkie.com/wp-content/uploads/2014/01/TIE-Fighter-Entry-19-Screenshot.png?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="Freakin' A-Wings..." />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/featured/sgj-podcast-98-tie-fighter-game-game/#comments"><span><i class="fa fa-comments-o"></i>6</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/podcasts/" rel="category tag">Podcasts</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">12 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/featured/sgj-podcast-98-tie-fighter-game-game/" rel="bookmark" title="SGJ Podcast #98 – TIE Fighter – The Best Game, or THE BEST GAME?">SGJ Podcast #98 – TIE Fighter – The Best Game, or THE BEST GAME?</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Welcome to this episode of the Space Game Junkie Podcast! This week, joining Jim and I is friend of the show and fellow TIE Fighter fanatic Hunter Mullins along with the host of the Upper...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						<li>	
+				<article id="post-180223" class="post-180223 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-reviews category-videos tag-star-wars-tie-fighter group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/reviews/play-tie-fighter-entry-37-tenth-times-charm/" title="Let’s Play TIE Fighter – Entry 37 – Tenth Time’s the Charm?">
+									<img src="http://i1.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/TIE-Fighter-Entry-37.jpg?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="God Damn G'Nabgib" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/reviews/play-tie-fighter-entry-37-tenth-times-charm/#comments"><span><i class="fa fa-comments-o"></i>0</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/reviews/" rel="category tag">Reviews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">12 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/reviews/play-tie-fighter-entry-37-tenth-times-charm/" rel="bookmark" title="Let’s Play TIE Fighter – Entry 37 – Tenth Time’s the Charm?">Let’s Play TIE Fighter – Entry 37 – Tenth Time’s the Charm?</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<div class="seriesmeta">This entry is part 37 of 37 in the series: <a href="http://www.spacegamejunkie.com/series/tie-fighter-review/" class="series-532" title="TIE Fighter Review">TIE Fighter Review</a></div><p>As we were going to talk about TIE Fighter on an episode of the podcast, I figured I’d return to the game to try and pass that one mission I’ve been stuck on for...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						<li>	
+				<article id="post-180219" class="post-180219 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-previews category-videos tag-wayward-terran-frontier tag-wayward-terran-frontier-zero-falls group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/previews/wayward-terran-frontier/" title="Wayward Terran Frontier: Zero Falls Preview – Running Head First into Danger!">
+									<img src="http://i2.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Wayward-Terran-Frontier.jpg?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="WATCH OUT FOR THAT TREE...er...ROCK..." />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/previews/wayward-terran-frontier/#comments"><span><i class="fa fa-comments-o"></i>0</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/previews/" rel="category tag">Previews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">12 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/previews/wayward-terran-frontier/" rel="bookmark" title="Wayward Terran Frontier: Zero Falls Preview – Running Head First into Danger!">Wayward Terran Frontier: Zero Falls Preview – Running Head First into Danger!</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Wayward Terran Frontier: Zero Falls is the single player version of the original Wayward Terran Frontier, which is an open-world/universe space exploration, combat and resource acquisition game. You control an abandoned base and have...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						<li>	
+				<article id="post-180211" class="post-180211 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-previews category-videos tag-reassembly group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/previews/reassembly-preview-lego-galaxy/" title="Reassembly Preview – Lego of my Galaxy!">
+									<img src="http://i0.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Reassembly-Preview.jpg?resize=720%2C340" class="attachment-thumb-large wp-post-image" alt="GAH, LASERS! OWIE!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/previews/reassembly-preview-lego-galaxy/#comments"><span><i class="fa fa-comments-o"></i>6</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/previews/" rel="category tag">Previews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">11 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/previews/reassembly-preview-lego-galaxy/" rel="bookmark" title="Reassembly Preview – Lego of my Galaxy!">Reassembly Preview – Lego of my Galaxy!</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Reassembly has been on Steam for a spell, but I finally was able to sit down and play a good deal of it. If you’re unaware, Reassembly is a spaceship building and galaxy conquest...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->				</li>
+						
+		</ul>
+	</div><!--/.featured-->
+	
+		
+				
+						<div class="post-list group">
+				<div class="post-row">					<article id="post-180205" class="post-180205 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-reviews category-videos tag-starpoint-gemini-2 tag-starpoint-gemini-2-secrets-of-aethera group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/reviews/starpoint-gemini-2-secrets-aethera-review-skipping-grind/" title="Starpoint Gemini 2: Secrets of Aethera Review – Skipping the Grind">
+									<img src="http://i0.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Starpoint-Gemini-2-Secrets-of-Aethera.jpg?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="Freakin' Lasers!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/reviews/starpoint-gemini-2-secrets-aethera-review-skipping-grind/#comments"><span><i class="fa fa-comments-o"></i>3</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/reviews/" rel="category tag">Reviews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">10 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/reviews/starpoint-gemini-2-secrets-aethera-review-skipping-grind/" rel="bookmark" title="Starpoint Gemini 2: Secrets of Aethera Review – Skipping the Grind">Starpoint Gemini 2: Secrets of Aethera Review – Skipping the Grind</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<div class="seriesmeta">This entry is part  of 8 in the series: <a href="http://www.spacegamejunkie.com/series/starpoint-gemini-2-review/" class="series-1035" title="Starpoint Gemini 2 Review">Starpoint Gemini 2 Review</a></div><p>Even after writing off Starpoint Gemini 2 as too grindy, they released some DLC that decidedly pulled me back. With Secrets of Aethera, they allow the player jump straight to level 35, which includes...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-180194" class="post-180194 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-reviews category-videos tag-kinetic-void group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/reviews/brian-breaks-shit-kinetic-void/" title="Brian Breaks Shit – Kinetic Void">
+									<img src="http://i0.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Brian-Breaks-Shit-Kinetic-Void.jpg?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="Hey Mac, Where Do Ya Want These?" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/reviews/brian-breaks-shit-kinetic-void/#comments"><span><i class="fa fa-comments-o"></i>3</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/reviews/" rel="category tag">Reviews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">9 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/reviews/brian-breaks-shit-kinetic-void/" rel="bookmark" title="Brian Breaks Shit – Kinetic Void">Brian Breaks Shit – Kinetic Void</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<div class="seriesmeta">This entry is part 2 of 2 in the series: <a href="http://www.spacegamejunkie.com/series/brian-breaks-shit/" class="series-1054" title="Brian Breaks Shit">Brian Breaks Shit</a></div><p>In this episode of Brian Breaks Shit, I return to Kinetic Void after being accused of giving it something of a bum rap the last time I played it. This time I started a...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-180189" class="post-180189 post type-post status-publish format-standard has-post-thumbnail hentry category-miscellaneous group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/miscellaneous/youtube-strike-lifted/" title="My YouTube Strike Was Lifted!!!!">
+									<img src="http://i0.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Youtubereturns.png?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="Youtubereturns" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/miscellaneous/youtube-strike-lifted/#comments"><span><i class="fa fa-comments-o"></i>8</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/miscellaneous/" rel="category tag">Miscellaneous</a></p>
+			<p class="post-date">6 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/miscellaneous/youtube-strike-lifted/" rel="bookmark" title="My YouTube Strike Was Lifted!!!!">My YouTube Strike Was Lifted!!!!</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Yessssssssssssssssssssssssssssssssssssssssssss.</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-180181" class="post-180181 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-podcasts tag-star-wars-x-wing-vs-tie-fighter group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/featured/sgj-podcast-97-x-wing-vs-tie-fighter-hodge-podge-issues/" title="SGJ Podcast #97 – X-Wing vs. TIE Fighter and a Hodge Podge of Other Issues…">
+									<img src="http://i2.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/XvTPodcast.png?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="TIE Me Up...TIE Me Down..." />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/featured/sgj-podcast-97-x-wing-vs-tie-fighter-hodge-podge-issues/#comments"><span><i class="fa fa-comments-o"></i>3</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/podcasts/" rel="category tag">Podcasts</a></p>
+			<p class="post-date">5 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/featured/sgj-podcast-97-x-wing-vs-tie-fighter-hodge-podge-issues/" rel="bookmark" title="SGJ Podcast #97 – X-Wing vs. TIE Fighter and a Hodge Podge of Other Issues…">SGJ Podcast #97 – X-Wing vs. TIE Fighter and a Hodge Podge of Other Issues…</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>Hey folks, welcome to this week’s Space Game Junkie Podcast. This week, Jim and I bring on regular X-Wing vs. TIE Fighter wingman Hunter Mullins to talk about how wrong we were about this amazing...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-180173" class="post-180173 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-reviews category-videos tag-elite-dangerous group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/reviews/180173/" title="Glory to the Gamepad – Elite Dangerous">
+									<img src="http://i1.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Glory-to-the-Gamepad-Elite-Dangerous.jpg?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="BURN BABY BURN" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/reviews/180173/#comments"><span><i class="fa fa-comments-o"></i>0</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/reviews/" rel="category tag">Reviews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">4 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/reviews/180173/" rel="bookmark" title="Glory to the Gamepad – Elite Dangerous">Glory to the Gamepad – Elite Dangerous</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<div class="seriesmeta">This entry is part 3 of 3 in the series: <a href="http://www.spacegamejunkie.com/series/glory-to-the-gamepad/" class="series-1055" title="Glory to the Gamepad">Glory to the Gamepad</a></div><p>In this episode of Glory to the Gamepad, I dive into the new hotness in space sims, Elite: Dangerous, to see if moving from my beloved HOTAS (now with rudder pedals!) setup to a...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-180167" class="post-180167 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-interviews tag-psycho-starship-rampage group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/featured/psycho-starship-rampage-qa-paranoid/" title="Psycho Starship Rampage Q&#038;A – Just Because You’re Paranoid…">
+									<img src="http://i2.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/big_ship_explosion.png?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="DIEDIEDIE!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/featured/psycho-starship-rampage-qa-paranoid/#comments"><span><i class="fa fa-comments-o"></i>3</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/interviews/" rel="category tag">Interviews</a></p>
+			<p class="post-date">3 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/featured/psycho-starship-rampage-qa-paranoid/" rel="bookmark" title="Psycho Starship Rampage Q&#038;A – Just Because You’re Paranoid…">Psycho Starship Rampage Q&#038;A – Just Because You’re Paranoid…</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>A little while back, I learned about a game called Psycho Starship Rampage in which you play a ship with a paranoid, rampaging AI that has to build itself and its ship to find its...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row">					<article id="post-180162" class="post-180162 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-previews category-videos tag-star-ruler-2 group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/previews/star-ruler-2-preview-2-coming-nicely/" title="Star Ruler 2 – Preview 2 – Coming Along Very Nicely">
+									<img src="http://i2.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/Star-Ruler-2-Preview-2.jpg?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="OMIGAWD" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/previews/star-ruler-2-preview-2-coming-nicely/#comments"><span><i class="fa fa-comments-o"></i>0</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/previews/" rel="category tag">Previews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">3 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/previews/star-ruler-2-preview-2-coming-nicely/" rel="bookmark" title="Star Ruler 2 – Preview 2 – Coming Along Very Nicely">Star Ruler 2 – Preview 2 – Coming Along Very Nicely</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<div class="seriesmeta">This entry is part 2 of 2 in the series: <a href="http://www.spacegamejunkie.com/series/star-ruler-2-preview/" class="series-1111" title="Star Ruler 2 Preview">Star Ruler 2 Preview</a></div><p>I played Star Ruler 2 quite a ways back when it first hit early access, and since then it’s had quite a bit of patching to bring it ever so closer to release. I therefore...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->										<article id="post-180156" class="post-180156 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-previews category-videos tag-starsector group">	
+	<div class="post-inner post-hover">
+		
+		<div class="post-thumbnail">
+			<a href="http://www.spacegamejunkie.com/previews/starsector-preview-real-good-tactical-time/" title="Starsector Preview – A Real Good Tactical Time">
+									<img src="http://i1.wp.com/www.spacegamejunkie.com/wp-content/uploads/2015/03/vlcsnap-2015-03-02-13h44m40s127.png?resize=520%2C245" class="attachment-thumb-medium wp-post-image" alt="FREAKIN' LASERS!" />																			</a>
+							<a class="post-comments" href="http://www.spacegamejunkie.com/previews/starsector-preview-real-good-tactical-time/#comments"><span><i class="fa fa-comments-o"></i>4</span></a>
+					</div><!--/.post-thumbnail-->
+		
+		<div class="post-meta group">
+			<p class="post-category"><a href="http://www.spacegamejunkie.com/category/featured/" rel="category tag">Featured</a> / <a href="http://www.spacegamejunkie.com/category/previews/" rel="category tag">Previews</a> / <a href="http://www.spacegamejunkie.com/category/videos/" rel="category tag">Videos</a></p>
+			<p class="post-date">2 Mar, 2015</p>
+		</div><!--/.post-meta-->
+		
+		<h2 class="post-title">
+			<a href="http://www.spacegamejunkie.com/previews/starsector-preview-real-good-tactical-time/" rel="bookmark" title="Starsector Preview – A Real Good Tactical Time">Starsector Preview – A Real Good Tactical Time</a>
+		</h2><!--/.post-title-->
+		
+				<div class="entry excerpt">				
+			<p>In this video, I sit down with the latest early access version of Starsector, a real-time tactical mission-based and open-campaign space combat game that has fleet management, a living world, and much more. It’s...</p>
+		</div><!--/.entry-->
+				
+	</div><!--/.post-inner-->	
+</article><!--/.post-->					</div><div class="post-row"></div>			</div><!--/.post-list-->
+					
+			<nav class="pagination group">
+			<div class='wp-pagenavi'>
+<span class='pages'>Page 1 of 151</span><span class='current'>1</span><a class="page larger" href="http://www.spacegamejunkie.com/page/2/">2</a><a class="page larger" href="http://www.spacegamejunkie.com/page/3/">3</a><a class="page larger" href="http://www.spacegamejunkie.com/page/4/">4</a><a class="page larger" href="http://www.spacegamejunkie.com/page/5/">5</a><span class='extend'>...</span><a class="larger page" href="http://www.spacegamejunkie.com/page/10/">10</a><a class="larger page" href="http://www.spacegamejunkie.com/page/20/">20</a><a class="larger page" href="http://www.spacegamejunkie.com/page/30/">30</a><span class='extend'>...</span><a class="nextpostslink" rel="next" href="http://www.spacegamejunkie.com/page/2/">»</a><a class="last" href="http://www.spacegamejunkie.com/page/151/">Last »</a>
+</div>	</nav><!--/.pagination-->
+			
+				
+	</div><!--/.pad-->
+	
+</section><!--/.content-->
+
+
+	<div class="sidebar s1">
+		
+		<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+		
+		<div class="sidebar-content">
+			
+						
+						
+						
+			<div id="twitch-status_widget-2" class="widget widget_twitch-status_widget"><h3>Latest Twitch Stream!</h3>			<div class="twitch-widget">
+				<div class="twitch-preview" style="display: none">
+					<div class="twitch-channel-topic"></div>
+					<div class="twitch-game"></div>
+					<div class="twitch-thumbnail">
+						<a href="http://www.twitch.tv/SpaceGameJunkie">
+							<div class="twitch-thumbnail-image"></div>
+							<div class="twitch-play-button"></div>
+						</a>
+					</div>
+					<span class="twitch-followers"></span>
+					<span class="twitch-viewers"></span>
+				</div>
+				<div class="twitch-preview-offline" style="display: none">
+					<div class="twitch-thumbnail-offline">
+						<div class="twitch-offline-image"></div>
+						<div class="twitch-offline-caption">Offline</div>
+					</div>
+				</div>
+			</div>
+		</div><div id="youtube-channel-3" class="widget widget_youtube-channel"><h3>Latest Videos</h3><div class="youtube_channel default"><div class="ytc_video_container ytc_video_1 ytc_video_first" style="width:280px"><h3 class="ytc_title">Rebel Galaxy Preview Part 2 - Sailing Along Swimmingly</h3><a href="http://www.youtube.com/watch?v=UUe9AdztSwM" title="Rebel Galaxy Preview Part 2 - Sailing Along Swimmingly" class="ytc_thumb ytc-lightbox ar16_9"><span style="background-image: url(//img.youtube.com/vi/UUe9AdztSwM/0.jpg);" title="Watch video Rebel Galaxy Preview Part 2 - Sailing Along Swimmingly published on 2015-03-18T15:44:44.000Z" id="ytc_UUe9AdztSwM"></span></a></div><!-- .ytc_video_container --><div class="ytc_video_container ytc_video_2 ytc_video_mid" style="width:280px"><h3 class="ytc_title">Sid Meiers Starships Review - A Galaxy Full of "Meh..."</h3><a href="http://www.youtube.com/watch?v=SadLH_Z_iiw" title="Sid Meiers Starships Review - A Galaxy Full of "Meh..."" class="ytc_thumb ytc-lightbox ar16_9"><span style="background-image: url(//img.youtube.com/vi/SadLH_Z_iiw/0.jpg);" title="Watch video Sid Meiers Starships Review - A Galaxy Full of "Meh..." published on 2015-03-17T13:51:43.000Z" id="ytc_SadLH_Z_iiw"></span></a></div><!-- .ytc_video_container --><div class="ytc_video_container ytc_video_3 ytc_video_mid" style="width:280px"><h3 class="ytc_title">X Rebirth Review - A Marked Improvement, Still Needs a Ways to Go</h3><a href="http://www.youtube.com/watch?v=E2sm2zNQgY0" title="X Rebirth Review - A Marked Improvement, Still Needs a Ways to Go" class="ytc_thumb ytc-lightbox ar16_9"><span style="background-image: url(//img.youtube.com/vi/E2sm2zNQgY0/0.jpg);" title="Watch video X Rebirth Review - A Marked Improvement, Still Needs a Ways to Go published on 2015-03-16T15:25:14.000Z" id="ytc_E2sm2zNQgY0"></span></a></div><!-- .ytc_video_container --><div class="ytc_video_container ytc_video_4 ytc_video_last" style="width:280px"><h3 class="ytc_title">Hunter Makes a Splash</h3><a href="http://www.youtube.com/watch?v=ZbVrqIOOI6Q" title="Hunter Makes a Splash" class="ytc_thumb ytc-lightbox ar16_9"><span style="background-image: url(//img.youtube.com/vi/ZbVrqIOOI6Q/0.jpg);" title="Watch video Hunter Makes a Splash published on 2015-03-15T00:22:15.000Z" id="ytc_ZbVrqIOOI6Q"></span></a></div><!-- .ytc_video_container --></div><!-- .youtube_channel --></div><div id="recent-comments-5" class="widget widget_recent_comments"><h3>Latest Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Brian Rubin</span> on <a href="http://www.spacegamejunkie.com/reviews/march-2016-game-month-command-adventures-starship-entry-1-fascinating-gem/comment-page-1/#comment-117170">March, 2016 Game of the Month – Command Adventures: Starship – Entry 1 – A Fascinating Gem?</a></li><li class="recentcomments"><span class="comment-author-link">Brian Rubin</span> on <a href="http://www.spacegamejunkie.com/reviews/rebirth-review-marked-improvement-ways/comment-page-1/#comment-117169">X Rebirth Review – A Marked Improvement, Still Needs a Ways to Go</a></li><li class="recentcomments"><span class="comment-author-link">Brian Rubin</span> on <a href="http://www.spacegamejunkie.com/reviews/sid-meiers-starships-galaxy-full-meh/comment-page-1/#comment-117167">Sid Meiers Starships Review – A Galaxy Full of “Meh…”</a></li><li class="recentcomments"><span class="comment-author-link">Brian Rubin</span> on <a href="http://www.spacegamejunkie.com/featured/sgj-podcast-98-tie-fighter-game-game/comment-page-1/#comment-117166">SGJ Podcast #98 – TIE Fighter – The Best Game, or THE BEST GAME?</a></li><li class="recentcomments"><span class="comment-author-link">Brian Rubin</span> on <a href="http://www.spacegamejunkie.com/featured/sgj-podcast-98-tie-fighter-game-game/comment-page-1/#comment-117165">SGJ Podcast #98 – TIE Fighter – The Best Game, or THE BEST GAME?</a></li></ul></div><div id="twiget-widget-2" class="widget twiget-widget"><h3>Latest tweets</h3>		<div class="twiget-feed">
+			
+            <ul id="tweet-wrap-twiget-widget-2" class="tweet-wrap">
+            	<li><img src="http://www.spacegamejunkie.com/wp-content/plugins/twiget/images/ajax-loader.gif" width="16" height="16" alt="" /> Loading tweets...</li>
+            </ul>
+            
+            <p id="tweet-bio-twiget-widget-2" class="tweet-bio"></p>
+            <p class="twigetfollow">
+            	<a href="https://twitter.com/spacegamejunkie" class="twitter-follow-button" data-show-count="true" data-width="100%" data-align="right">Follow @spacegamejunkie</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if( !d.getElementById(id) ){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
+            
+			<script type="text/javascript">
+                jQuery(document).ready(function($) {
+                    var tweetOptions = {
+                            screen_name: 		'spacegamejunkie',
+                            count: 				5,
+                            include_rts: 		true,
+							exclude_replies: 	false,
+							widget_id:			'twiget-widget-2'
+                    };
+                    $.post( 'http://www.spacegamejunkie.com/?twiget-get-tweets=1', tweetOptions, function(data){
+                        TwigetTwitter( data, 'tweet-wrap-twiget-widget-2', 'tweet-bio-twiget-widget-2', {
+						   newwindow:true,profilepic:true,						});
+                    }, 'json');
+                });
+            </script>
+            		</div><!-- .twiget-feed -->
+        </div>        			
+		</div><!--/.sidebar-content-->
+		
+	</div><!--/.sidebar-->
+
+	
+<div class="sidebar s2">
+	
+	<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+	
+	<div class="sidebar-content">
+		
+				
+				
+		<div id="text-5" class="widget widget_text"><h3>On the Next Podcast…</h3>			<div class="textwidget"><p>3/17 - 7 PM Pacific - We'll be talking to the developer of <a href="http://badgerheadgames.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://badgerheadgames.com/', 'Space Warfare: Infinite');"><u>Space Warfare: Infinite</u></a> about their upcoming space fleet combat game! <a href="http://www.twitch.tv/spacegamejunkie" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.twitch.tv/spacegamejunkie', 'Tune in here');"><u>Tune in here</u></a>, and be sure to <a href="http://www.spacegamejunkie.com/calendar/"><u>check the calendar</u></a> for even more upcoming shows!</p>
+</div>
+		</div><div id="text-6" class="widget widget_text"><h3>Support SGJ on Patreon</h3>			<div class="textwidget"><p>For as little as $1 a month, you can help make this site more awesome.</p>
+<div align="center"><a href="https://www.patreon.com/spacegamejunkie" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://www.patreon.com/spacegamejunkie', '');"><img src="http://spacegamejunkie.com/images/patreon-banner-medium.jpg"></a></div>
+</div>
+		</div><div id="social-widget-2" class="widget Social_Widget"><h3>Be Social!</h3><div class="socialmedia-buttons smw_center"><a href="https://www.facebook.com/spacegamejunkie" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/facebook.png" 
+				alt=" Facebook" 
+				title=" Facebook"  class="bounce" /></a><a href="http://twitter.com/spacegamejunkie" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/twitter.png" 
+				alt=" Twitter" 
+				title=" Twitter"  class="bounce" /></a><a href="https://plus.google.com/+Spacegamejunkie/posts" rel="publisher" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/googleplus.png" 
+				alt=" Google+" 
+				title=" Google+"  class="bounce" /></a><a href="http://steamcommunity.com/groups/spacegamejunkie" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/steam.png" 
+				alt="Steam Group" 
+				title="Steam Group"  class="bounce" /></a><a href="http://feeds.feedburner.com/SpaceGameJunkie" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/rss.png" 
+				alt="RSS Feed for Posts" 
+				title="RSS Feed for Posts"  class="bounce" /></a><a href="http://www.youtube.com/user/spacegamejunkie" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/youtube.png" 
+				alt=" YouTube" 
+				title=" YouTube"  class="bounce" /></a><a href="https://itunes.apple.com/us/podcast/space-game-junkie-podcast/id605788601" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/itunes.png" 
+				alt="SGJ Podcast iTunes Page" 
+				title="SGJ Podcast iTunes Page"  class="bounce" /></a><a href="http://www.reddit.com/r/SpaceGameJunkie/" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/wp-content/plugins/social-media-widget/images/default/32/reddit.png" 
+				alt=" Reddit" 
+				title=" Reddit"  class="bounce" /></a><a href="http://feeds.feedburner.com/spacegamejunkiepodcast" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/images/Podcast.png" 
+				alt=" Space Game Junkie Podcast RSS" 
+				title=" Space Game Junkie Podcast RSS"  class="bounce" /></a><a href="http://www.twitch.tv/spacegamejunkie" rel="nofollow" target="_blank"><img width="32" height="32" src="http://www.spacegamejunkie.com/images/twitchtv.png" 
+				alt=" Space Game Junkie Twitch.tv Channel" 
+				title=" Space Game Junkie Twitch.tv Channel"  class="bounce" /></a></div></div><div id="text-4" class="widget widget_text"><h3>Other Ways to Support SGJ</h3>			<div class="textwidget"><center><SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fspagamjun-20%2F8002%2Feab342cc-5b98-43d3-82eb-02ffa75140a4"> </SCRIPT> <NOSCRIPT><a href="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_sw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fspagamjun-20%2F8002%2Feab342cc-5b98-43d3-82eb-02ffa75140a4&Operation=NoScript" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_sw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fspagamjun-20%2F8002%2Feab342cc-5b98-43d3-82eb-02ffa75140a4&amp;Operation=NoScript', 'Amazon.com Widgets');">Amazon.com Widgets</a></NOSCRIPT>
+<hr>
+<!-- Begin PayPal Donations by https://www.tipsandtricks-hq.com/paypal-donations-widgets-plugin -->
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <div class="paypal-donations">
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="bn" value="TipsandTricks_SP" />
+        <input type="hidden" name="business" value="spending@brubin.net" />
+        <input type="hidden" name="item_name" value="To Help Pay for Hosting and/or Snacks. ;)" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online." />
+        <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+    </div>
+</form>
+<!-- End PayPal Donations -->
+
+</center></div>
+		</div><div id="blog_subscription-3" class="widget jetpack_subscription_widget"><h3>Subscribe to SGJ via Email</h3>
+			<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-3">
+				<div id="subscribe-text"><p>If you'd like to get email updates whenever new posts go up, please click the button below!</p>
+</div>					<p id="subscribe-email">
+						<label id="jetpack-subscribe-label" for="subscribe-field">
+							Email Address						</label>
+						<input type="email" name="email" value="" id="subscribe-field" placeholder="Email Address" />
+					</p>
+
+					<p id="subscribe-submit">
+						<input type="hidden" name="action" value="subscribe" />
+						<input type="hidden" name="source" value="http://www.spacegamejunkie.com/" />
+						<input type="hidden" name="sub-type" value="widget" />
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-3" />
+												<input type="submit" value="Subscribe" name="jetpack_subscriptions_widget" />
+					</p>
+							</form>
+
+			<script>
+				( function( d ) {
+					if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+						var label = d.getElementById( 'jetpack-subscribe-label' );
+	 					label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+	 					label.style.position = 'absolute';
+	 					label.style.height   = '1px';
+	 					label.style.width    = '1px';
+	 					label.style.overflow = 'hidden';
+					}
+				} ) ( document );
+			</script>
+		 
+		
+</div><div id="linkcat-2" class="widget widget_links"><h3>Blogroll</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.explorminate.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.explorminate.com/', 'Explorminate');">Explorminate</a></li>
+<li><a href="http://indie-love.com" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://indie-love.com', 'Indie Love');"  title="Giving Indie Games More Exposure">Indie Love</a></li>
+<li><a href="http://joystickrequired.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://joystickrequired.com/', 'Joystick Required');"  title="An Excellent Sci-Fi Gaming Community Run by An Old Friend of Mine ;)">Joystick Required</a></li>
+<li><a href="http://www.mobygames.com" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.mobygames.com', 'Mobygames');"  title="An exceptionally detailed database of possibly every video game ever created.">Mobygames</a></li>
+<li><a href="http://www.play-old-pc-games.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.play-old-pc-games.com/', 'Play Old PC Games');">Play Old PC Games</a></li>
+<li><a href="http://www.spacesector.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.spacesector.com/', 'Space Sector');"  title="Another excellent space game website. ">Space Sector</a></li>
+<li><a href="http://spacesimcentral.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://spacesimcentral.com/', 'Space Sim Central');"  title="An awesome and informative space game website. ">Space Sim Central</a></li>
+<li><a href="http://crpgaddict.blogspot.com/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://crpgaddict.blogspot.com/', 'The CRPG Addict');"  title="An amazing site that has been the inspiration for this site. :)">The CRPG Addict</a></li>
+<li><a href="http://www.goodolddays.net/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.goodolddays.net/', 'The Good Old Days');"  title="A large compendium of older games that includes many computer-based space games. Very useful. ">The Good Old Days</a></li>
+
+	</ul>
+</div>
+<div id="tag_cloud-10" class="widget widget_tag_cloud"><h3>Tags</h3><div class="tagcloud"><a href='http://www.spacegamejunkie.com/tag/atari-2600/' class='tag-link-16' title='1 topic' style='font-size: 8pt;'>atari 2600</a>
+<a href='http://www.spacegamejunkie.com/tag/ccp/' class='tag-link-26' title='1 topic' style='font-size: 8pt;'>ccp</a>
+<a href='http://www.spacegamejunkie.com/tag/dark-matter/' class='tag-link-50' title='2 topics' style='font-size: 9.3404255319149pt;'>dark matter</a>
+<a href='http://www.spacegamejunkie.com/tag/doublesix-games/' class='tag-link-7' title='1 topic' style='font-size: 8pt;'>doublesix games</a>
+<a href='http://www.spacegamejunkie.com/tag/elite-plus/' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>elite plus</a>
+<a href='http://www.spacegamejunkie.com/tag/eve-online/' class='tag-link-25' title='131 topics' style='font-size: 21.553191489362pt;'>eve online</a>
+<a href='http://www.spacegamejunkie.com/tag/flatspace-ii/' class='tag-link-233' title='1 topic' style='font-size: 8pt;'>flatspace ii</a>
+<a href='http://www.spacegamejunkie.com/tag/flatspace-iik/' class='tag-link-451' title='1 topic' style='font-size: 8pt;'>flatspace iik</a>
+<a href='http://www.spacegamejunkie.com/tag/freespace-2/' class='tag-link-28' title='80 topics' style='font-size: 19.989361702128pt;'>freespace 2</a>
+<a href='http://www.spacegamejunkie.com/tag/galaga/' class='tag-link-15' title='1 topic' style='font-size: 8pt;'>galaga</a>
+<a href='http://www.spacegamejunkie.com/tag/game-arts/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>game arts</a>
+<a href='http://www.spacegamejunkie.com/tag/games-plant/' class='tag-link-35' title='1 topic' style='font-size: 8pt;'>games plant</a>
+<a href='http://www.spacegamejunkie.com/tag/gratuitous-space-battles/' class='tag-link-38' title='37 topics' style='font-size: 17.531914893617pt;'>gratuitous space battles</a>
+<a href='http://www.spacegamejunkie.com/tag/impulse/' class='tag-link-31' title='2 topics' style='font-size: 9.3404255319149pt;'>impulse</a>
+<a href='http://www.spacegamejunkie.com/tag/jupiter-2/' class='tag-link-33' title='1 topic' style='font-size: 8pt;'>jupiter 2</a>
+<a href='http://www.spacegamejunkie.com/tag/legends-of-pegasus/' class='tag-link-8' title='15 topics' style='font-size: 14.702127659574pt;'>legends of pegasus</a>
+<a href='http://www.spacegamejunkie.com/tag/lunar-lander/' class='tag-link-12' title='6 topics' style='font-size: 12.095744680851pt;'>lunar lander</a>
+<a href='http://www.spacegamejunkie.com/tag/miner-wars-2-5d/' class='tag-link-234' title='1 topic' style='font-size: 8pt;'>miner wars 2.5d</a>
+<a href='http://www.spacegamejunkie.com/tag/most-wanted-entertainment/' class='tag-link-34' title='1 topic' style='font-size: 8pt;'>most wanted entertainment</a>
+<a href='http://www.spacegamejunkie.com/tag/nexus-the-jupiter-incident/' class='tag-link-32' title='19 topics' style='font-size: 15.446808510638pt;'>nexus the jupiter incident</a>
+<a href='http://www.spacegamejunkie.com/tag/novacore-studios/' class='tag-link-9' title='1 topic' style='font-size: 8pt;'>novacore studios</a>
+<a href='http://www.spacegamejunkie.com/tag/planet-war/' class='tag-link-36' title='3 topics' style='font-size: 10.234042553191pt;'>planet war</a>
+<a href='http://www.spacegamejunkie.com/tag/silpheed/' class='tag-link-43' title='2 topics' style='font-size: 9.3404255319149pt;'>silpheed</a>
+<a href='http://www.spacegamejunkie.com/tag/sins-of-a-solar-empire-trinity/' class='tag-link-221' title='9 topics' style='font-size: 13.212765957447pt;'>sins of a solar empire trinity</a>
+<a href='http://www.spacegamejunkie.com/tag/soldak-entertainment/' class='tag-link-45' title='2 topics' style='font-size: 9.3404255319149pt;'>soldak entertainment</a>
+<a href='http://www.spacegamejunkie.com/tag/space-pirates-and-zombies/' class='tag-link-4' title='50 topics' style='font-size: 18.5pt;'>space pirates and zombies</a>
+<a href='http://www.spacegamejunkie.com/tag/space-trader/' class='tag-link-51' title='4 topics' style='font-size: 10.978723404255pt;'>space trader</a>
+<a href='http://www.spacegamejunkie.com/tag/spacewar/' class='tag-link-27' title='9 topics' style='font-size: 13.212765957447pt;'>spacewar!</a>
+<a href='http://www.spacegamejunkie.com/tag/star-citizen/' class='tag-link-434' title='150 topics' style='font-size: 22pt;'>star citizen</a>
+<a href='http://www.spacegamejunkie.com/tag/star-control/' class='tag-link-30' title='13 topics' style='font-size: 14.329787234043pt;'>star control</a>
+<a href='http://www.spacegamejunkie.com/tag/starflight/' class='tag-link-20' title='39 topics' style='font-size: 17.68085106383pt;'>starflight</a>
+<a href='http://www.spacegamejunkie.com/tag/starglider/' class='tag-link-22' title='1 topic' style='font-size: 8pt;'>starglider</a>
+<a href='http://www.spacegamejunkie.com/tag/star-raiders/' class='tag-link-18' title='1 topic' style='font-size: 8pt;'>star raiders</a>
+<a href='http://www.spacegamejunkie.com/tag/star-wars/' class='tag-link-14' title='1 topic' style='font-size: 8pt;'>star wars</a>
+<a href='http://www.spacegamejunkie.com/tag/steam/' class='tag-link-39' title='1 topic' style='font-size: 8pt;'>steam</a>
+<a href='http://www.spacegamejunkie.com/tag/strike-suit-zero/' class='tag-link-6' title='65 topics' style='font-size: 19.31914893617pt;'>strike suit zero</a>
+<a href='http://www.spacegamejunkie.com/tag/takeshi-miyaji/' class='tag-link-41' title='1 topic' style='font-size: 8pt;'>takeshi miyaji</a>
+<a href='http://www.spacegamejunkie.com/tag/tandy-1000ex/' class='tag-link-19' title='1 topic' style='font-size: 8pt;'>tandy 1000ex</a>
+<a href='http://www.spacegamejunkie.com/tag/thexder/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>thexder</a>
+<a href='http://www.spacegamejunkie.com/tag/trs80/' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>trs80</a>
+<a href='http://www.spacegamejunkie.com/tag/ufopilot-the-phadt-menace/' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>ufopilot the phadt menace</a>
+<a href='http://www.spacegamejunkie.com/tag/uss-enterprise/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>uss enterprise</a>
+<a href='http://www.spacegamejunkie.com/tag/x3-terran-conflict/' class='tag-link-29' title='20 topics' style='font-size: 15.595744680851pt;'>x3 terran conflict</a>
+<a href='http://www.spacegamejunkie.com/tag/yars-revenge/' class='tag-link-17' title='1 topic' style='font-size: 8pt;'>yar's revenge</a>
+<a href='http://www.spacegamejunkie.com/tag/yoogames/' class='tag-link-37' title='1 topic' style='font-size: 8pt;'>yoogames</a></div>
+</div>		
+	</div><!--/.sidebar-content-->
+	
+</div><!--/.sidebar-->	
+
+				</div><!--/.main-inner-->
+			</div><!--/.main-->			
+		</div><!--/.container-inner-->
+	</div><!--/.container-->
+
+	<footer id="footer">
+		
+				
+				
+				
+		<section class="container" id="footer-bottom">
+			<div class="container-inner">
+				
+				<a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+				
+				<div class="pad group">
+					
+					<div class="grid one-half">
+						
+												
+						<div id="copyright">
+															<p>Space Game Junkie © 2015. All Rights Reserved.</p>
+													</div><!--/#copyright-->
+						
+												
+					</div>
+					
+					<div class="grid one-half last">	
+						<ul class="social-links"></ul>					</div>
+				
+				</div><!--/.pad-->
+				
+			</div><!--/.container-inner-->
+		</section><!--/.container-->
+		
+	</footer><!--/#footer-->
+
+</div><!--/#wrapper-->
+
+				<script type='text/javascript'><!--
+			var seriesdropdown = document.getElementById("orgseries_dropdown");
+			if (seriesdropdown) {
+			 function onSeriesChange() {
+					if ( seriesdropdown.options[seriesdropdown.selectedIndex].value != ( 0 || -1 ) ) {
+						location.href = "http://www.spacegamejunkie.com/series/"+seriesdropdown.options[seriesdropdown.selectedIndex].value;
+					}
+				}
+				seriesdropdown.onchange = onSeriesChange;
+			}
+			--></script>
+				<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/twitch-status/js/twitch-status.js?ver=1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/youtube-channel/assets/js/jquery.fitvids.min.js?ver=2.4.1.3'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/youtube-channel/assets/lib/magnific-popup/jquery.magnific-popup.min.js?ver=2.4.1.3'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/youtube-channel/assets/js/youtube-channel.min.js?ver=2.4.1.3'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201512'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2015Maraa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/themes/hueman/js/jquery.jplayer.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/themes/hueman/js/scripts.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/js/jquery.fullcalendar.min.js?ver=1.5.3'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/js/jquery.simplemodal.1.4.3.min.js?ver=1.4.3'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/js/jquery.mousewheel.min.js?ver=3.0.6'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/js/jquery.jgrowl.min.js?ver=1.2.5'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var custom = {"is_rtl":"","locale":"en","start_of_week":"0","step_interval":"30","datepicker_format":"mm\/dd\/yy","is24HrTime":"","show_weekends":"1","agenda_time_format":"h:mmt{ - h:mmt}","other_time_format":"h:mmt","axis_time_format":"h:mmt","limit":"0","today":"Today","all_day":"All Day","years":"Years","year":"Year","months":"Months","month":"Month","weeks":"Weeks","week":"Week","days":"Days","day":"Day","hours":"Hours","hour":"Hour","minutes":"Minutes","minute":"Minute","january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December","jan":"Jan","feb":"Feb","mar":"Mar","apr":"Apr","may_short":"May","jun":"Jun","jul":"Jul","aug":"Aug","sep":"Sep","oct":"Oct","nov":"Nov","dec":"Dec","sunday":"Sunday","monday":"Monday","tuesday":"Tuesday","wednesday":"Wednesday","thursday":"Thursday","friday":"Friday","saturday":"Saturday","sun":"Sun","mon":"Mon","tue":"Tue","wed":"Wed","thu":"Thu","fri":"Fri","sat":"Sat","close_event_form":"Close Event Form","loading_event_form":"Loading Event Form...","update_btn":"Update","delete_btn":"Delete","category_type":"Category type","hide_all_notifications":"hide all notifications","has_been_created":"has been created.","has_been_modified":"has been modified.","has_been_deleted":"has been deleted.","add_event":"Add Event","edit_event":"Edit Event","delete_event":"Delete this event?","loading":"Loading Events...","category_filter_label":"Category filter label","repeats_every":"Repeats Every","until":"Until","success":"Success!","whoops":"Whoops!","ajaxurl":"http:\/\/www.spacegamejunkie.com\/wp-admin\/admin-ajax.php","editable":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.spacegamejunkie.com/wp-content/plugins/ajax-event-calendar/js/jquery.init_show_calendar.js?ver=1.0.4'></script>
+<!--[if lt IE 9]>
+<script src="http://www.spacegamejunkie.com/wp-content/themes/hueman/js/ie/respond.js"></script>
+<![endif]-->
+<script type='text/javascript' src='http://stats.wp.com/e-201512.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.4',blog:'26151820',post:'0',tz:'-7'} ]);
+	_stq.push([ 'clickTrackerInit', '26151820', '0' ]);
+</script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.616 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-03-18 11:35:53 -->
+
+<!-- super cache -->

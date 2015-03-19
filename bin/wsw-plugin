@@ -1,0 +1,10 @@
+Sub Wsw_PreProcessPage(Handle, ByRef sMemWeb, ByRef sStatusMessage, ByRef iStatusCode)
+   dim sFileName = MakeUniqueFilename(AddBackslash(WSW_TEMP_DIR) + GetUniqueID + ".txt")
+   dim sData = "[HEADER BEGIN]" & Chr(13) + Chr(10) & 
+				Bookmark_GetProperty(Handle, "check_url") & Chr(13) + Chr(10) &
+				"[HEADER END]" & Chr(13) + Chr(10) & sMemWeb
+   StringToFile(sFileName, sData)
+   ExecuteAndWait(AddBackslash(WSW_SETUP_DIR) + "scrappy/scrappy.exe", """" & sFileName & """", True)
+   FileToString(sFileName, sMemWeb)
+   DeleteFile(sFileName)
+End Sub
