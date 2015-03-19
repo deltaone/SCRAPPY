@@ -16,3 +16,7 @@ Command line regex scraper engine based on CS-Script and NVelocity (designed for
   4. Paste content of 'bin\wsw-plugin' into bookmark plugin
   5. Edit content 'rules\default.cs' or create new .cs file into same folder
   6. Look into 'bin\readme' for additional info
+
+# Example sites (rules defined in 'rules\default.cs')
+https://www.avito.ru/moskva/bytovaya_elektronika?view=list
+http://www.spacegamejunkie.com/

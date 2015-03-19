@@ -1,6 +1,6 @@
 <[*www.spacegamejunkie.com*]>	
 public static Hashtable Process(string pageText, Hashtable v)
-{
+{   // http://www.spacegamejunkie.com/
 	v["PageTitle"] = "Space Game Junkie";
 	v["PageDescription"] = "Playing Through Space Gaming's Past, Present and Future";
 
@@ -17,7 +17,7 @@ public static Hashtable Process(string pageText, Hashtable v)
 
 <[*www.avito.ru*bytovaya_elektronika*]>	
 public static Hashtable Process(string pageText, Hashtable v)
-{
+{ 	// https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 	v["PageTitle"] = "Авито - электроника";
 	v["PageDescription"] = "Бесплатные объявления раздела бытовой электроники";	
 	
@@ -39,7 +39,7 @@ public static Hashtable Process(string pageText, Hashtable v)
 
 <[*www.avito.ru*bytovaya_elektronika*]>
 public static Hashtable Process(string pageText, Hashtable v)
-{
+{   // https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 	v["TEMPLATE"] = "table.st";
 	v["PageTitle"] = "Авито - электроника";
 	v["PageText"] = "first line + second line + third line";
