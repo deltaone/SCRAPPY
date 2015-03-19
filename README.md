@@ -2,7 +2,7 @@
 Command line regex scraper engine based on CS-Script and NVelocity (designed for WebSite-Watcher http://aignes.com)
 
 # Features:
-  * Create RSS feed / TABLE view from any websiteb
+  * Create RSS feed / TABLE view from any website
   * Transform website to custom design through templates
   * Easily extend scrap functionlity through adding custom functions
   
