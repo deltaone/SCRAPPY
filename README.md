@@ -7,7 +7,7 @@ Command line regex scraper engine based on CS-Script and NVelocity (designed for
   * Cachable precompiled processor for each bookmark
   * Easily extend scrap functionlity through adding custom functions
   * Full featured C# scripts in scraper routines (http://www.csscript.net)
-  * Rich template syntax (http://www.castleproject.org)
+  * Rich template syntax (http://www.castleproject.org/download)
 
 # How to use:
   1. Create folder 'scrappy' in root of WebSite-Watcher
