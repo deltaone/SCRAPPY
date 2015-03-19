@@ -1,7 +1,12 @@
 # SCRAPPY
 Command line regex scraper engine based on CS-Script and NVelocity (designed for WebSite-Watcher http://aignes.com)
 
-How to use:
+# Features:
+  * Create RSS feed / TABLE view from any websiteb
+  * Transform website to custom design through templates
+  * Easily extend scrap functionlity through adding custom functions
+  
+# How to use:
   1. Create folder 'scrappy' in root of WebSite-Watcher
   2. Copy content of 'bin' folder into newly created 'scrappy'
   3. Create new bookmark in WebSite-Watcher
