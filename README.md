@@ -19,6 +19,9 @@ Command line regex scraper engine based on CS-Script and NVelocity (designed for
 
 # Example sites:
 rules for these sites defined into 'rules\default.cs'
-https://www.avito.ru/moskva/bytovaya_elektronika?view=list
+  * http://www.spacegamejunkie.com
+  * https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 
-http://www.spacegamejunkie.com/
+
+
+
