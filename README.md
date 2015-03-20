@@ -14,7 +14,7 @@ Command line regex scraper engine based on CS-Script and NVelocity (designed for
   2. Copy content of 'bin' folder into newly created 'scrappy'
   3. Create new bookmark in WebSite-Watcher
   4. Paste content of 'bin\wsw-plugin' into bookmark plugin
-  5. Edit content 'rules\default.cs' or create new .cs file into same folder
+  5. Edit content 'WebSite-Watcher\scrappy\rules\default.cs' or create new .cs file into same folder
   6. Look into 'bin\readme' for additional info
 
 # Example sites:
