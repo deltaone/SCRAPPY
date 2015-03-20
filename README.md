@@ -41,10 +41,12 @@ public static Hashtable Process(string pageText, Hashtable v)
 	return(v);
 }
 ```
-#Tips:
-    * For easy extracting datarows from websites use Firefox addon "FireBug"
-    * To help extract data from row use https://regex101.com/
-    * When write rules look into debug folder, it contains intermediate data
+
+# Tips:
+  * For easy extracting datarows from websites use Firefox addon "FireBug"
+  * To help extract data from row use https://regex101.com/
+  * When write rules look into debug folder, it contains intermediate data
+
 
 # Screenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
