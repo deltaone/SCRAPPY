@@ -10,7 +10,7 @@ public static Hashtable Process(string pageText, Hashtable v)
 	{	"date", 		"class=\"post-date\">(.*?)</p>", 										"$1"},	
 	{	"link",			"<h2 class=\"post-title\">\\s+<a href=\"(.*?)\" .*?title=\"(.*?)\"",	"$1"},
 	{	"title",		"<h2 class=\"post-title\">\\s+<a href=\"(.*?)\" .*?title=\"(.*?)\"",	"$2"},
-	{	"description",	"entry excerpt\">\\s*(.*?)\\s*</div>", 									"$1"},	
+	{	"description",	"entry excerpt\">.*<p>(.*?)</p>\\s*</div>", 							"$1"},	
 	});
 	return(v);
 }
