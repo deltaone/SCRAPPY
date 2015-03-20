@@ -1,6 +1,9 @@
 # SCRAPPY
 Command line regex scraper engine based on CS-Script and NVelocity (designed for WebSite-Watcher http://aignes.com)
 
+# Description
+Is designed to extract and post-processing of any information from the pages through the regexp and output the  received information through templates (thx template engine NVelocity). At the moment the output templates is RSS and simple table. Configuration data extraction is made through subprogramm is written in c # (used runtime compiler CS-Script). In principle, it turned out that you can implement your algorithm for extracting data from any page, the structure of the configuration file allows you to add your own functions and procedures.
+
 # Features:
   * Create RSS feed / TABLE view from any website
   * Transform website to custom design through templates
@@ -41,5 +44,13 @@ public static Hashtable Process(string pageText, Hashtable v)
 	return(v);
 }
 ```
+
+# Tips:
+  * For easy extracting datarows from websites use Firefox addon "FireBug"
+  * To help extract data from row use https://regex101.com/
+  * When write rules look into debug folder, it contains intermediate data
+
+
 # Screenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
+
