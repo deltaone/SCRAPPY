@@ -23,7 +23,7 @@ rules for these sites defined into 'rules\default.cs'
   * https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 
 # Example rule:
-```
+```csharp
 <[*www.spacegamejunkie.com*]>	
 public static Hashtable Process(string pageText, Hashtable v)
 {   // http://www.spacegamejunkie.com/
