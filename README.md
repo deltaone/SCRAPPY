@@ -22,5 +22,5 @@ rules for these sites defined into 'rules\default.cs'
   * http://www.spacegamejunkie.com
   * https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 
-# Screeen shot:
+# Screeenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
