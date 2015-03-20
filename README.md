@@ -23,4 +23,4 @@ rules for these sites defined into 'rules\default.cs'
   * https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 
 # Screeen shot:
-![Alt text](/deltaone/SCRAPPY/blob/master/result.png?raw=true "Feel the difference")
+![Alt text](/result.png?raw=true "Feel the difference")
