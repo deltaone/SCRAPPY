@@ -88,7 +88,7 @@ public class MAIN
         {
             VelocityContext context = new VelocityContext();
             StringWriter writer = new StringWriter();
-            // if(argsDefault != null) foreach (DictionaryEntry a in argsDefault) context.Put((string)a.Key, a.Value);
+            if(argsDefault != null) foreach (DictionaryEntry a in argsDefault) context.Put((string)a.Key, a.Value);
             foreach (DictionaryEntry a in args) context.Put((string)a.Key, a.Value);
             Velocity.MergeTemplate(templateFileName, Encoding.UTF8.WebName, context, writer);
             result = writer.GetStringBuilder().ToString();
