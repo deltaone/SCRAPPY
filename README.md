@@ -22,5 +22,23 @@ rules for these sites defined into 'rules\default.cs'
   * http://www.spacegamejunkie.com
   * https://www.avito.ru/moskva/bytovaya_elektronika?view=list
 
+# Example rule:
+<[*www.spacegamejunkie.com*]>	
+public static Hashtable Process(string pageText, Hashtable v)
+{   // http://www.spacegamejunkie.com/
+	v["PageTitle"] = "Space Game Junkie";
+	v["PageDescription"] = "Playing Through Space Gaming's Past, Present and Future";
+
+	var rows = GetStringsByRegex(pageText, "(<article id=\"post-.*?</article>)", "$1");
+	v["PageTable"] = ExtractToHashtables(rows, new string[,] {
+	{	"image",		"<img src=\"(.*?)\" class=", 											"$1"},	
+	{	"date", 		"class=\"post-date\">(.*?)</p>", 										"$1"},	
+	{	"link",			"<h2 class=\"post-title\">\\s+<a href=\"(.*?)\" .*?title=\"(.*?)\"",	"$1"},
+	{	"title",		"<h2 class=\"post-title\">\\s+<a href=\"(.*?)\" .*?title=\"(.*?)\"",	"$2"},
+	{	"description",	"entry excerpt\">\\s*(.*?)\\s*</div>", 									"$1"},	
+	});
+	return(v);
+}
+
 # Screenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
