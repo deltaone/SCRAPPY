@@ -54,3 +54,14 @@ public static Hashtable Process(string pageText, Hashtable v)
 # Screenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
 
+<!--Openstat-->
+<span id="openstat1"></span>
+<script type="text/javascript">
+var openstat = { counter: 1, image: 87, color: "ff9822", next: openstat };
+(function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, "script", document.location.protocol);
+</script>
+<!--/Openstat-->
