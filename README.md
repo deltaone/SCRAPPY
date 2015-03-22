@@ -53,4 +53,3 @@ public static Hashtable Process(string pageText, Hashtable v)
 
 # Screenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
-
