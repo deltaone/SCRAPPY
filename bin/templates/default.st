@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>$PageTitle</title>
   <link href="$PageURL"/>
@@ -17,12 +17,8 @@
 	
 	#if($row.get_Item('image'))
 	  <![CDATA[   
-		<table border=0 cellpadding=5 cellspacing=0>
-		<tr>
-		<td><img src="$row.get_Item('image')"></td>
-		<td style="font: 80% Verdana, Arial, sans-serif;" valign="top">$row.get_Item('description')</td>
-		</tr>
-		</table>
+		<a href="$row.get_Item('image')"><img style="float: left; margin: 0 20px 10px 0; width: 250px" src="$row.get_Item('image')"></a>
+		$row.get_Item('description')
 	  ]]>
 	#else
       <![CDATA[$row.get_Item('description')]]>
