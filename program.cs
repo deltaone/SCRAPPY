@@ -198,7 +198,11 @@ public class MAIN
                 logDebug("_ProcessFile() compille assembly to '{0}'!", asmFileName);
                 helper = new AsmHelper(CSScript.LoadCode(scriptCode, asmFileName, true, null));                
             }
-            args = (Hashtable)helper.Invoke("Script.Process", pageText, args);
+            // http://bytes.com/topic/c-sharp/answers/504866-control-invoke-ref-parameter
+            var invokeArgs = new object[] { pageText, args };
+            helper.Invoke("Script.Process", invokeArgs);
+            // use invokeArgs[0] (returned value of pageText)
+            // use invokeArgs[0] (returned value of args)
             print("Scraping page - OK!");
         }
         catch (Exception ex)
