@@ -28,7 +28,7 @@ rules for these sites defined into 'rules\default.cs'
 # Example rule:
 ```csharp
 <[*www.spacegamejunkie.com*]>	
-public static Hashtable Process(string pageText, Hashtable v)
+public static void Process(string pageText, Hashtable v)
 {   // http://www.spacegamejunkie.com/
 	v["PageTitle"] = "Space Game Junkie";
 	v["PageDescription"] = "Playing Through Space Gaming's Past, Present and Future";
@@ -41,7 +41,6 @@ public static Hashtable Process(string pageText, Hashtable v)
 	{	"title",		"<h2 class=\"post-title\">\\s+<a href=\"(.*?)\" .*?title=\"(.*?)\"",	"$2"},
 	{	"description",	"entry excerpt\">\\s*(.*?)\\s*</div>", 									"$1"},	
 	});
-	return(v);
 }
 ```
 
