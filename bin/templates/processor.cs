@@ -26,10 +26,10 @@ public static class ExtensionMethods
     }
 
     public static string Clean(this string source, bool onlyCRLF)
-    {
-        source = source.Replace('\n', ' ').Replace("\r", "");
+    {   // source = Regex.Replace(source, @"[\s\r\n]+", " ").Trim();
+        source = source.Replace(@"[\r\n]+", " ");
         if (onlyCRLF) return (source);
-        return (source.Replace('\t', ' '));
+        return (source.Replace(@"[\t]+", " "));
     }
 
     public static string Clean(this string source)
@@ -50,7 +50,13 @@ public static class ExtensionMethods
         return (BitConverter.ToString(checkSum).Replace("-", String.Empty));
     }
 
-    public static string XmlEscape(this string unescaped)
+    public static string HTMLStripTags(this string source)
+    { // http://haacked.com/archive/2005/04/22/Matching_HTML_With_Regex.aspx/	
+        return Regex.Replace(source, @"</?\w+((\s+\w+(\s*=\s*(?:"".*?""|'.*?'|[^'"">\s]+))?)+\s*|\s*)/?>", 
+					string.Empty, RegexOptions.Singleline);
+    }
+	
+    public static string XMLEscape(this string unescaped)
     {
         XmlDocument doc = new XmlDocument();
         XmlNode node = doc.CreateElement("root");
@@ -58,7 +64,7 @@ public static class ExtensionMethods
         return(node.InnerXml);
     }
 
-    public static string XmlUnescape(this string escaped)
+    public static string XMLUnescape(this string escaped)
     {
         XmlDocument doc = new XmlDocument();
         XmlNode node = doc.CreateElement("root");
@@ -103,7 +109,7 @@ public class Script
         string pattern = Regex.Escape(wildcard).Replace(@"\?", ".").Replace(@"\*", ".*?").Replace(@"\(", "(").Replace(@"\)", ")");
         return (GetStringsByRegex(text, pattern, template));
     }
-
+	
     public static List<Hashtable> ExtractToHashtables(string[] strings, string[,] columns)
     {
         var table = new List<Hashtable>();
@@ -111,7 +117,9 @@ public class Script
         {
             var row = new Hashtable();
             for (int i = 0; i <= columns.GetUpperBound(0); i++)
-                row[columns[i, 0]] = GetStringByRegex(line, columns[i, 1], columns[i, 2]);
+			{
+				row[columns[i, 0]] = GetStringByRegex(line, columns[i, 1], columns[i, 2]);				
+			}
             table.Add(row);
         }
         return (table);
@@ -128,11 +136,33 @@ public class Script
         foreach (string line in strings)
         {
             row = new string[columns.GetUpperBound(0) + 1];
-            for (int i = 0; i <= columns.GetUpperBound(0); i++)
+            for (int i = 0; i <= columns.GetUpperBound(0); i++) 
+			{
                 row[i] = GetStringByRegex(line, columns[i, 1], columns[i, 2]);
+			}
             table.Add(row);
         }
         return (table);
+    }
+
+    public static List<Hashtable> HTMLStripTags(List<Hashtable> table, string columns)
+    {
+        string[] c = Regex.Split(columns, @"\s*,\s*");
+        if(c.Length < 1) return(table);
+        foreach(var row in table) 
+            foreach (var column in c)
+                row[column] = ((string)row[column]).HTMLStripTags();
+        return(table);
+    }
+
+    public static List<string[]> HTMLStripTags(List<string[]> table, string columns)
+    {
+        string[] c = Regex.Split(columns, @"\s*,\s*");
+        if(c.Length < 1) return(table);
+        foreach(var row in table) 
+            foreach (string column in c)
+                row[Convert.ToInt32(column)] = ((string)row[Convert.ToInt32(column)]).HTMLStripTags();
+        return(table);
     }
 
 //---------------------------------------------------------------
