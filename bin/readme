@@ -35,19 +35,22 @@ Useful functions:
 
 	other functions look into templates\processor.cs
 	
-	public static class ExtensionMethods
-		public static void Swap<T>(this List<T> list, int index1, int index2)
-		public static bool IsEmpty(this string source)
-		public static string Clean(this string source, bool onlyCRLF)
-		public static string Clean(this string source)
-		public static string Place(this string placeholder, string source)
-		public static string GetMD5(this string source)
-		public static string XmlEscape(this string unescaped)
-		public static string XmlUnescape(this string escaped)
-	public class Script
-		public static string GetStringByRegex(string text, string pattern, string template)
-		public static string GetStringByWildcard(string text, string wildcard, string template)
-		public static string[] GetStringsByRegex(string text, string pattern, string template)
-		public static string[] GetStringsByWildcard(string text, string wildcard, string template)
-		public static List<Hashtable> ExtractToHashtables(string[] strings, string[,] columns)
-		public static List<string[]> ExtractToArrays(string[] strings, string[,] columns)
+		public static class ExtensionMethods
+			public static void Swap<T>(this List<T> list, int index1, int index2)
+			public static bool IsEmpty(this string source)
+			public static string Clean(this string source, bool onlyCRLF)
+			public static string Clean(this string source)
+			public static string Place(this string placeholder, string source)
+			public static string GetMD5(this string source)
+			public static string HTMLStripTags(this string source)
+			public static string XMLEscape(this string unescaped)
+			public static string XMLUnescape(this string escaped)
+		public class Script
+			public static string GetStringByRegex(string text, string pattern, string template)
+			public static string GetStringByWildcard(string text, string wildcard, string template)
+			public static string[] GetStringsByRegex(string text, string pattern, string template)
+			public static string[] GetStringsByWildcard(string text, string wildcard, string template)
+			public static List<Hashtable> ExtractToHashtables(string[] strings, string[,] columns)
+			public static List<string[]> ExtractToArrays(string[] strings, string[,] columns)
+			public static List<Hashtable> HTMLStripTags(List<Hashtable> table, string columns)
+			public static List<string[]> HTMLStripTags(List<string[]> table, string columns)		
