@@ -41,6 +41,9 @@
     <Reference Include="CSScriptLibrary.v3.5">
       <HintPath>ref\CSScriptLibrary.v3.5.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>ref\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>ref\Newtonsoft.Json.dll</HintPath>
     </Reference>

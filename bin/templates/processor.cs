@@ -8,6 +8,7 @@ using System.Reflection;
 using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Xml;
+using HtmlAgilityPack;
 using SCRAPPY;
 
 public static class ExtensionMethods
@@ -27,9 +28,9 @@ public static class ExtensionMethods
 
     public static string Clean(this string source, bool onlyCRLF)
     {   // source = Regex.Replace(source, @"[\s\r\n]+", " ").Trim();
-        source = source.Replace(@"[\r\n]+", " ");
+        source = Regex.Replace(source, @"[\r\n]+", " ");
         if (onlyCRLF) return (source);
-        return (source.Replace(@"[\t]+", " "));
+        return (Regex.Replace(source, @"[\s\t]+", " "));
     }
 
     public static string Clean(this string source)
@@ -51,11 +52,11 @@ public static class ExtensionMethods
     }
 
     public static string HTMLStripTags(this string source)
-    { // http://haacked.com/archive/2005/04/22/Matching_HTML_With_Regex.aspx/	
+    { // http://haacked.com/archive/2005/04/22/Matching_HTML_With_Regex.aspx/   
         return Regex.Replace(source, @"</?\w+((\s+\w+(\s*=\s*(?:"".*?""|'.*?'|[^'"">\s]+))?)+\s*|\s*)/?>", 
-					string.Empty, RegexOptions.Singleline);
+                    string.Empty, RegexOptions.Singleline);
     }
-	
+    
     public static string XMLEscape(this string unescaped)
     {
         XmlDocument doc = new XmlDocument();
@@ -75,6 +76,26 @@ public static class ExtensionMethods
 
 public class Script
 {
+    public static string GetStringByXPath(HtmlNode node, string xpath, string part, string template)
+    {
+        var n = node.SelectSingleNode(xpath);
+        if (n == null) return ("");
+        string value = "";
+        try
+        {
+            if (part.ToLower() == "innerhtml") value = n.InnerHtml;		
+            else if (part.ToLower() == "innertext") value = n.InnerText;
+			else if (part.ToLower() == "outerhtml") value = n.OuterHtml;			
+            else value = n.Attributes[part].Value;
+        }
+        catch
+        {
+            MAIN.logDebug("WARRNING: GetStringByXPath() - can't get value for [" + xpath + "][" + part + "]!");
+        }
+        template = template.Replace("$1", value);
+        return (template);
+    }
+
     public static string GetStringByRegex(string text, string pattern, string template)
     {
         Match match = Regex.Match(text, pattern, RegexOptions.Singleline);
@@ -90,7 +111,21 @@ public class Script
         return(GetStringByRegex(text, pattern, template));
     }
 
-    public static string[] GetStringsByRegex(string text, string pattern, string template)
+    public static HtmlNodeCollection GetRowsByXPath(HtmlNode node, string xpath) 
+    {       
+        try
+        {
+            var nodes = node.SelectNodes(xpath);
+            if(nodes != null) return(nodes);
+        }
+        catch
+        {
+            MAIN.logDebug("WARRNING: GetNodesByXPath() - can't get [" + xpath + "]!");
+        }
+        return (new HtmlNodeCollection(node));
+    }   
+    
+    public static string[] GetRowsByRegex(string text, string pattern, string template)
     {
         MatchCollection matches = Regex.Matches(text, pattern, RegexOptions.Singleline);
         var result = new string[matches.Count];
@@ -104,12 +139,12 @@ public class Script
         return (result);
     }
 
-    public static string[] GetStringsByWildcard(string text, string wildcard, string template)
+    public static string[] GetRowsByWildcard(string text, string wildcard, string template)
     {
         string pattern = Regex.Escape(wildcard).Replace(@"\?", ".").Replace(@"\*", ".*?").Replace(@"\(", "(").Replace(@"\)", ")");
-        return (GetStringsByRegex(text, pattern, template));
+        return (GetRowsByRegex(text, pattern, template));
     }
-	
+    
     public static List<Hashtable> ExtractToHashtables(string[] strings, string[,] columns)
     {
         var table = new List<Hashtable>();
@@ -117,14 +152,25 @@ public class Script
         {
             var row = new Hashtable();
             for (int i = 0; i <= columns.GetUpperBound(0); i++)
-			{
-				row[columns[i, 0]] = GetStringByRegex(line, columns[i, 1], columns[i, 2]);				
-			}
+                row[columns[i, 0]] = GetStringByRegex(line, columns[i, 1], columns[i, 2]);              
             table.Add(row);
         }
         return (table);
     }
 
+    public static List<Hashtable> ExtractToHashtables(HtmlNodeCollection nodes, string[,] columns)
+    {
+        var table = new List<Hashtable>();
+        foreach (var node in nodes)
+        {
+            var row = new Hashtable();
+            for (int i = 0; i <= columns.GetUpperBound(0); i++)
+                row[columns[i, 0]] = GetStringByXPath(node, columns[i, 1], columns[i, 2], columns[i, 3]);
+            table.Add(row);         
+        }
+        return (table);
+    }   
+    
     public static List<string[]> ExtractToArrays(string[] strings, string[,] columns)
     {
         var table = new List<string[]>();
@@ -137,14 +183,30 @@ public class Script
         {
             row = new string[columns.GetUpperBound(0) + 1];
             for (int i = 0; i <= columns.GetUpperBound(0); i++) 
-			{
                 row[i] = GetStringByRegex(line, columns[i, 1], columns[i, 2]);
-			}
             table.Add(row);
         }
         return (table);
     }
 
+    public static List<string[]> ExtractToArrays(HtmlNodeCollection nodes, string[,] columns)
+    {   
+        var table = new List<string[]>();
+        // build header record        
+        var row = new string[columns.GetUpperBound(0) + 1];
+        for (int i = 0; i <= columns.GetUpperBound(0); i++) row[i] = columns[i, 0];
+        table.Add(row);
+        // build main body      
+        foreach (var node in nodes)
+        {
+            row = new string[columns.GetUpperBound(0) + 1];
+            for (int i = 0; i <= columns.GetUpperBound(0); i++) 
+                row[i] = GetStringByXPath(node, columns[i, 1], columns[i, 2], columns[i, 3]);
+            table.Add(row);
+        }               
+        return (table);
+    }
+    
     public static List<Hashtable> HTMLStripTags(List<Hashtable> table, string columns)
     {
         string[] c = Regex.Split(columns, @"\s*,\s*");

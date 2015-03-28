@@ -8,5 +8,6 @@ del /Q *.vshost.exe
 del /Q *.manifest
 del /Q *.pdb
 del /Q *.xml
+del /Q *.suo
 cd ..
 pause

@@ -15,6 +15,7 @@ using NVelocity.Context;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using CSScriptLibrary;
+using HtmlAgilityPack;
 
 using Extensions;
 
@@ -76,7 +77,11 @@ public class MAIN
     public static string DumpObject(object data, string path = null)
     {
         if (data.GetType() != typeof(string))
-            data = (string)(JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented, new Newtonsoft.Json.JsonSerializerSettings { }));        
+            data = (string)(JsonConvert.SerializeObject(data, Newtonsoft.Json.Formatting.Indented, 
+                    new Newtonsoft.Json.JsonSerializerSettings { 
+                           ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore,
+                           PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects
+                    }));
         if (!path.IsEmpty()) File.WriteAllText(Path.Combine(folderDebug, path + ".dbg"), (string) data);
         return ((string)data);
     }
@@ -159,7 +164,7 @@ public class MAIN
         pageText = match.Groups[2].Value;
         string pageURL = match.Groups[1].Value;
         if (debug) DumpObject(pageText, "page");
-      
+     
         // try read rule body
         logDebug("_ProcessFile() page url: " + pageURL);
         string ruleWildcard = "";
@@ -187,7 +192,10 @@ public class MAIN
                         {"PageURL", pageURL}};
         string asmFileName = Path.Combine(folderCache, scriptCode.GetMD5() + scriptCode.Length.ToString("X") + ".dll");
         try
-        {
+        {            
+            HtmlDocument html = new HtmlDocument();
+            html.LoadHtml(pageText);
+            
             if (File.Exists(asmFileName))
             {
                 logDebug("_ProcessFile() use precompilled assembly '{0}'!", asmFileName);                                
@@ -199,10 +207,11 @@ public class MAIN
                 helper = new AsmHelper(CSScript.LoadCode(scriptCode, asmFileName, true, null));                
             }
             // http://bytes.com/topic/c-sharp/answers/504866-control-invoke-ref-parameter
-            var invokeArgs = new object[] { pageText, args };
+            var invokeArgs = new object[] { pageText, html, args };
             helper.Invoke("Script.Process", invokeArgs);
             // use invokeArgs[0] (returned value of pageText)
-            // use invokeArgs[0] (returned value of args)
+            // use invokeArgs[1] (returned value of html)
+            // use invokeArgs[2] (returned value of args)
             print("Scraping page - OK!");
         }
         catch (Exception ex)

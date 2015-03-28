@@ -9,19 +9,27 @@
 	#before
   <entry>
 	#each
-    <title><![CDATA[$row.get_Item('title')]]></title>
-    <link href="$row.get_Item('link')"/>
-	<id><![CDATA[$row.get_Item('link')]]></id>
-	<updated><![CDATA[$row.get_Item('date')]]></updated>
-    <content type="html">	
-	#if($row.get_Item('image'))
-	  <![CDATA[
-        <a href="$row.get_Item('image')"><img style="float: left; margin: 0 20px 10px 0; width: 250px" src="$row.get_Item('image')"></a>
-        $row.get_Item('description')
-	  ]]>
+	<title><![CDATA[$row.get_Item('title')]]></title>
+	#if($row.get_Item('link'))
+		<link href="$row.get_Item('link')"/>
 	#else
-        <![CDATA[$row.get_Item('description')]]>
-    #end	
+		<link href="/"/>
+	#end
+	<id><![CDATA[$row.get_Item('title')]]></id>
+	#if($row.get_Item('date'))	
+		<updated><![CDATA[$row.get_Item('date')]]></updated>
+	#else
+		<updated>Today</updated>
+	#end
+    <content type="html">	
+		<![CDATA[
+		#if($row.get_Item('image'))
+			<a href="$row.get_Item('image')"><img style="float: left; margin: 0 20px 10px 0; width: 250px" src="$row.get_Item('image')"></a>
+		#end  
+		#if($row.get_Item('description'))
+			$row.get_Item('description')
+		#end    
+		]]>
 	</content>
 	#after
   </entry>

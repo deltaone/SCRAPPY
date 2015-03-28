@@ -1,56 +1,63 @@
 To debug set root/scrappy.cfg - section [main] variable debug=1
-	after that look into root/debug folder
-	to debug subprograms use - Debug.Assert(false, "Debug point!");	
-
-Subprogram parameters
-	pageText - input HTML page
-	v - variables for templating (Hashtable)
+    after that look into root/debug folder
+    to debug subprograms use - Debug.Assert(false, "Debug point!"); 
 	
+Subprogram parameters
+    pageText - input HTML page
+    v - variables for templating (Hashtable)
+    
 Variable default values:
-	TEMPLATE = "default.st"
-	PageTitle = "Scrapped page"
-	PageURL = input page URL
-	PageDate = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss")
+    TEMPLATE = "default.st"
+    PageTitle = "Scrapped page"
+    PageURL = input page URL
+    PageDate = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss")
 
 RSS Template variables ("default.st")
-	page: PageURL PageTitle PageDate PageDescription [PageTable] rows: image date link title description
+    page: PageURL PageTitle PageDate PageDescription [PageTable] rows: image date link title description
 
 TABLE Template variables ("table.st")
-	page: PageURL PageTitle PageDate PageText PageTableTitle PageTextBottom [PageTable]
+    page: PageURL PageTitle PageDate PageText PageTableTitle PageTextBottom [PageTable]
 
+XPath examples:
+ 	".//div[starts-with(@id, 'i')]"
+	".//article/header/.."
+	
 Useful variables:
-	MAIN.folderDebug
-	MAIN.folderTemplates
-	MAIN.folderCurrent
-	MAIN.folderExecutable
+    MAIN.folderDebug
+    MAIN.folderTemplates
+    MAIN.folderCurrent
+    MAIN.folderExecutable
 
 Useful functions:
-	Debug.Assert(false, "Debug point!");
-	MAIN.log(string message)
-	MAIN.print(string message)
-	MAIN.INI.WriteValue(string Section, string Key, string Value)
-	(string) MAIN.INI.ReadValue(string Section, string Key, string Default = "")
-	(string) MAIN.DumpObject(object data, string path = null)
-	(string) MAIN.BuildTemplate(string templateFileName, Hashtable args, Hashtable argsDefault = null)
+    Debug.Assert(false, "Debug point!");
+    MAIN.log(string message)
+    MAIN.print(string message)
+    MAIN.INI.WriteValue(string Section, string Key, string Value)
+    (string) MAIN.INI.ReadValue(string Section, string Key, string Default = "")
+    (string) MAIN.DumpObject(object data, string path = null)
+    (string) MAIN.BuildTemplate(string templateFileName, Hashtable args, Hashtable argsDefault = null)
 
-	other functions look into templates\processor.cs
-	
-		public static class ExtensionMethods
-			public static void Swap<T>(this List<T> list, int index1, int index2)
-			public static bool IsEmpty(this string source)
-			public static string Clean(this string source, bool onlyCRLF)
-			public static string Clean(this string source)
-			public static string Place(this string placeholder, string source)
-			public static string GetMD5(this string source)
-			public static string HTMLStripTags(this string source)
-			public static string XMLEscape(this string unescaped)
-			public static string XMLUnescape(this string escaped)
-		public class Script
-			public static string GetStringByRegex(string text, string pattern, string template)
-			public static string GetStringByWildcard(string text, string wildcard, string template)
-			public static string[] GetStringsByRegex(string text, string pattern, string template)
-			public static string[] GetStringsByWildcard(string text, string wildcard, string template)
-			public static List<Hashtable> ExtractToHashtables(string[] strings, string[,] columns)
-			public static List<string[]> ExtractToArrays(string[] strings, string[,] columns)
-			public static List<Hashtable> HTMLStripTags(List<Hashtable> table, string columns)
-			public static List<string[]> HTMLStripTags(List<string[]> table, string columns)		
+    other functions look into templates\processor.cs
+    public static class ExtensionMethods
+        public static void Swap<T>(this List<T> list, int index1, int index2)
+        public static bool IsEmpty(this string source)
+        public static string Clean(this string source, bool onlyCRLF)
+        public static string Clean(this string source)
+        public static string Place(this string placeholder, string source)
+        public static string GetMD5(this string source)
+        public static string HTMLStripTags(this string source)
+        public static string XMLEscape(this string unescaped)
+        public static string XMLUnescape(this string escaped)
+    public class Script
+        public static string GetStringByXPath(HtmlNode node, string xpath, string part, string template)
+        public static string GetStringByRegex(string text, string pattern, string template)
+        public static string GetStringByWildcard(string text, string wildcard, string template)
+        public static HtmlNodeCollection GetRowsByXPath(HtmlNode node, string xpath) 
+        public static string[] GetRowsByRegex(string text, string pattern, string template)
+        public static string[] GetRowsByWildcard(string text, string wildcard, string template)
+        public static List<Hashtable> ExtractToHashtables(string[] strings, string[,] columns)
+        public static List<Hashtable> ExtractToHashtables(HtmlNodeCollection nodes, string[,] columns)
+        public static List<string[]> ExtractToArrays(string[] strings, string[,] columns)
+        public static List<string[]> ExtractToArrays(HtmlNodeCollection nodes, string[,] columns)
+        public static List<Hashtable> HTMLStripTags(List<Hashtable> table, string columns)
+        public static List<string[]> HTMLStripTags(List<string[]> table, string columns)
