@@ -1,9 +1,10 @@
-To debug set root/scrappy.cfg - section [main] variable debug=1
+To debug set root/scrappy.ini - section [main] variable debug=1
     after that look into root/debug folder
     to debug subprograms use - Debug.Assert(false, "Debug point!"); 
 	
 Subprogram parameters
     pageText - input HTML page
+	html - HtmlAgilityPack.HtmlDocument with loaded page
     v - variables for templating (Hashtable)
     
 Variable default values:
