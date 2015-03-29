@@ -120,7 +120,6 @@ public static void Process(string pageText, HtmlDocument html, Hashtable v)
 	v["PageDescription"] = "Playing Through Space Gaming's Past, Present and Future";
 
 	var rows = GetRowsByRegex(pageText, "(<article id=\"post-.*?</article>)", "$1");
-	MAIN.DumpObject(rows[0], "row");	
 	v["PageTable"] = ExtractToHashtables(rows, new string[,] {
 	{	"image",		"<img src=\"(.*?)\" class=", 											"$1"},
 	{	"date", 		"class=\"post-date\">(.*?)</p>", 										"$1"},
