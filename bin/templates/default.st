@@ -24,7 +24,13 @@
     <content type="html">	
 		<![CDATA[
 		#if($row.get_Item('image'))
-			<a href="$row.get_Item('image')"><img style="float: left; margin: 0 20px 10px 0; width: 250px" src="$row.get_Item('image')"></a>
+			<a href="$row.get_Item('image')">
+			#if($row.get_Item('image_width'))
+				<img style="float: left; margin: 0 20px 10px 0; width: $row.get_Item('image_width')"
+			#else
+				<img style="float: left; margin: 0 20px 10px 0; width: 250px"
+			#end
+			src="$row.get_Item('image')"></a>
 		#end  
 		#if($row.get_Item('description'))
 			$row.get_Item('description')

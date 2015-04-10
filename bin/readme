@@ -14,7 +14,7 @@ Variable default values:
     PageDate = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss")
 
 RSS Template variables ("default.st")
-    page: PageURL PageTitle PageDate PageDescription [PageTable] rows: image date link title description
+    page: PageURL PageTitle PageDate PageDescription [PageTable] rows: image image_width date link title description 
 
 TABLE Template variables ("table.st")
     page: PageURL PageTitle PageDate PageText PageTableTitle PageTextBottom [PageTable]

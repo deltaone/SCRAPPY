@@ -2,6 +2,28 @@
 // MAIN.DumpObject(rows[0].Clean(), "row");
 // MAIN.DumpObject(table[0]["description"], "description");
 
+<[*www.litmir*]>
+public static void Process(string pageText, HtmlDocument html, Hashtable v)
+{   // http://www.litmir.info
+	v["PageTitle"] = "Litmir";
+	v["PageDescription"] = "Litmir library";
+
+	var rows = GetRowsByXPath(html.DocumentNode, ".//div[@class='lt60']");
+	var table = ExtractToHashtables(rows, new string[,] {
+	{	"image",		".//img",					"src",			"$1"},
+	{	"date", 		"./table/tr/td[2]/div[2]",	"InnerHtml",	"$1"},
+	{	"link",			".//a[@class='lt24']",		"href",			"$1"},
+	{	"title",		".//a[@class='lt24']",		"InnerText",	"$1"},
+	{	"description",	"./table/tr/td[2]",			"InnerHtml",	"$1"},
+	});
+	foreach(var r in table) {
+		r["image_width"] = "100px";
+		r["date"] = GetStringByWildcard(r["date"] as string, "</span></a>(*)<br><b>", "$1");
+		r["description"] = GetStringByRegex(r["description"] as string, "FB2</a></div>(.*?)$", "$1");
+	}
+	v["PageTable"] = table;
+}
+
 <[*www.elite-games.ru*]>
 public static void Process(string pageText, HtmlDocument html, Hashtable v)
 {   // http://www.elite-games.ru/
