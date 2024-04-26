@@ -73,3 +73,5 @@ public static void Process(string pageText, HtmlDocument html, Hashtable v)
 
 # Screenshot:
 ![Alt text](/result.png?raw=true "Feel the difference")
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=deltaone-SCRAPPY&label=Repository%20views&color=ce9927&style=flat" /> </p>
